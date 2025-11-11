@@ -1,0 +1,98 @@
+#include<stdio.h>
+#include<string.h>
+
+typedef struct {
+    int id;
+    char name[30];
+    float marks;
+    char grade;
+} students;
+
+int max_count = 100;
+students stud_db[100];
+int stud_count = 0;
+
+void adddata () {
+
+    int count = 0;
+    printf("No of rows to add: \n");
+    scanf("%d", &count);
+
+    for(int i = 0; i<count; i++) {
+
+        if (stud_count >= max_count) {
+            printf("Db is full");
+            return;
+        }
+        
+        printf("Enter Student ID: ");
+    	scanf("%d", &stud_db[stud_count].id);
+        getchar();
+
+   	printf("Enter Full Name: ");
+	fgets(stud_db[stud_count].name, sizeof(stud_db[stud_count].name), stdin);
+        stud_db[stud_count].name[strcspn(stud_db[stud_count].name, "\n")] = '\0';
+
+    	printf("Enter Marks: ");
+    	scanf("%f", &stud_db[stud_count].marks);
+
+    	printf("Enter Grade: ");
+    	scanf(" %c", &stud_db[stud_count].grade); 
+    
+     printf("\n%d. %d %s %.2f %c\n", 
+	    stud_count + 1, 
+	    stud_db[stud_count].id, 
+	    stud_db[stud_count].name, 
+	    stud_db[stud_count].marks, 
+ 	    stud_db[stud_count].grade);
+ 
+        stud_count ++;
+
+     }
+     
+}
+
+void viewdata() {
+    if (stud_count == 0) {
+        printf("No data available to show \n");
+        return;
+    }
+
+    printf("\n--------- Students Records ---------\n");
+    printf("ID\tName\t\tMarks\tGrade\n");
+    printf("------------------------------------\n");
+
+    for (int i=0; i<stud_count; i++) {
+        printf("\n%d\t %s\t %.2f\t %c\n",  
+	    stud_db[i].id, 
+	    stud_db[i].name, 
+            stud_db[i].marks, 
+	    stud_db[i].grade);
+     }
+}
+
+int main() {
+
+    int choice;
+    
+    while (1) {
+        printf("Enter 1 to add / 0 to view / 9 to exit \n");
+        scanf("%d", &choice);
+    
+        switch (choice) {
+            case 1:
+                adddata();
+                break;
+            case 0:
+                viewdata();
+                break;
+            case 9:
+                printf("Exiting program \n");
+                return 0;
+            default:
+                printf("invalid choice\n");
+        }
+     }
+
+    return 0;
+}

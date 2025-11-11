@@ -1,0 +1,110 @@
+preprocessor
+
+-> runs before the compilation
+
+preprocessor directives: 
+
+-> #define
+-> #include
+-> #ifdef
+-> #ifndef
+-> #undef
+
+----------------------
+
+#define
+
+-> to define
+
+  syntax: #define name value
+	  #define PI   3.14
+
+define - constant (eg: PI)
+       - macro (eg: SQUARE)
+
+eg:
+
+#include <stdio.h>
+#define PI 3.14159          // constant
+#define SQUARE(x) ((x)*(x)) // macro
+
+int main() {
+ 
+    int a = 5;
+
+    printf("%.2f\n", PI); //3.14
+    printf("%f\n", SQUARE(a)); //25
+    return 0;
+}
+----------------------
+
+#include
+
+-> to include header files(system / user-defined)
+
+  syntax: #include < > - system header file
+          #include " " - user-defined header file
+
+eg:
+
+#include <stdio.h>
+#include "math_utils.h"
+
+-----------------------
+
+#ifdef
+
+-> if defined
+-> checks if already defined
+
+  syntax: #ifdef DEBUG // defined already
+
+eg:
+
+#include <stdio.h>
+
+#define DEBUG  
+
+int main() {
+#ifdef DEBUG
+    printf("Debug mode is ON\n");
+#endif
+
+    return 0;
+}
+
+-----------------------
+
+#ifndef
+
+-> if not defined
+-> checks if not defined already
+
+  syntax: #ifndef header-filename
+          #define header-filename
+
+eg:
+
+#ifndef MATH_UTILS_H
+#define MATH_UTILS_H
+
+int add(int x, int y);
+int sub(int x, int y);
+
+#endif
+
+-----------------------
+
+#endif
+
+-> Every #ifdef or #ifndef must be closed with #endif
+
+   syntax: #endif
+
+eg:
+
+#ifdef DEBUG
+    printf()
+#endif
+
+-----------------------
