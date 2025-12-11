@@ -1,0 +1,14 @@
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\bin\Debug\net10.0\Myproj.exe
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\bin\Debug\net10.0\Myproj.deps.json
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\bin\Debug\net10.0\Myproj.runtimeconfig.json
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\bin\Debug\net10.0\Myproj.dll
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\bin\Debug\net10.0\Myproj.pdb
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\Myproj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\Myproj.AssemblyInfoInputs.cache
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\Myproj.AssemblyInfo.cs
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\Myproj.csproj.CoreCompileInputs.cache
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\Myproj.dll
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\refint\Myproj.dll
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\Myproj.pdb
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\Myproj.genruntimeconfig.cache
+C:\Users\Navya\OneDrive\Desktop\C++\Fun Tasks\Myproj\obj\Debug\net10.0\ref\Myproj.dll

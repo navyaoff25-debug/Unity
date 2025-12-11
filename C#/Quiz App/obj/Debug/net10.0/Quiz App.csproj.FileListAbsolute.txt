@@ -1,0 +1,14 @@
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\bin\Debug\net10.0\Quiz App.exe
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\bin\Debug\net10.0\Quiz App.deps.json
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\bin\Debug\net10.0\Quiz App.runtimeconfig.json
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\bin\Debug\net10.0\Quiz App.dll
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\bin\Debug\net10.0\Quiz App.pdb
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\Quiz App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\Quiz App.AssemblyInfoInputs.cache
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\Quiz App.AssemblyInfo.cs
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\Quiz App.csproj.CoreCompileInputs.cache
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\Quiz App.dll
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\refint\Quiz App.dll
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\Quiz App.pdb
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\Quiz App.genruntimeconfig.cache
+C:\Users\Navya\OneDrive\Desktop\C#\Quiz App\obj\Debug\net10.0\ref\Quiz App.dll

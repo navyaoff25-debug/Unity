@@ -1,0 +1,14 @@
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\Fun Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\Fun Tasks.AssemblyInfoInputs.cache
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\Fun Tasks.AssemblyInfo.cs
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\Fun Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\bin\Debug\net10.0\Fun Tasks.exe
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\bin\Debug\net10.0\Fun Tasks.deps.json
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\bin\Debug\net10.0\Fun Tasks.runtimeconfig.json
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\bin\Debug\net10.0\Fun Tasks.dll
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\bin\Debug\net10.0\Fun Tasks.pdb
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\Fun Tasks.dll
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\refint\Fun Tasks.dll
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\Fun Tasks.pdb
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\Fun Tasks.genruntimeconfig.cache
+C:\Users\Navya\OneDrive\Desktop\C#\Fun Tasks\obj\Debug\net10.0\ref\Fun Tasks.dll
