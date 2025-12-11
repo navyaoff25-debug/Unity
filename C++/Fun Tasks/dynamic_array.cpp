@@ -1,34 +1,39 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class dynamic {
+class DynamicArray {
 public:
-  int* data;
-  int size;
-  int capacity;
-};
+    int* data;
+    int size;
+    int capacity;
 
-dynamic() {
-  size = 0;
-  capacity = 2;
-  data = new int[capacity];
-}
-
-~dynamic() {
-    cout << "Destructed" << endl;
-
-    delete[] data;
-}
-
-if size == capacity {
-    dynamic (const dynamic& other){
-      size = other.size;
-      capacity = other.capacity;
-      data = new int[capacity];
+    // Constructor
+    DynamicArray() {
+        size = 0;
+        capacity = 2;
+        data = new int[capacity];
     }
 
-    dynamic (dynamic&& other) noexcept {
-        data = other.other;
+    // Destructor
+    ~DynamicArray() {
+        cout << "Destructed" << endl;
+        delete[] data;
+    }
+
+    // Copy constructor
+    DynamicArray(const DynamicArray& other) {
+        size = other.size;
+        capacity = other.capacity;
+
+        data = new int[capacity];
+        for (int i = 0; i < size; i++) {
+            data[i] = other.data[i];
+        }
+    }
+
+    // Move constructor
+    DynamicArray(DynamicArray&& other) noexcept {
+        data = other.data;
         size = other.size;
         capacity = other.capacity;
 
@@ -37,34 +42,54 @@ if size == capacity {
         other.capacity = 0;
     }
 
+    // Add element
+    void push_back(int value) {
+        if (size == capacity) {
+            // Expand
+            capacity *= 2;
+            int* newData = new int[capacity];
 
-    dynamic (const dynamic& other){
-        size = others.size;
-        capacity = others.capacity;
-        data = new int[capacity];
+            for (int i = 0; i < size; i++)
+                newData[i] = data[i];
+
+            delete[] data;
+            data = newData;
+        }
+
+        data[size] = value;
+        size++;
     }
-    
-      others.data = nullptr;
-     
-      dynamic.capacity ++;
 
-      push_back(0);
-
-      size ++;
+    // Remove last element
+    void pop_back() {
+        if (size > 0) {
+            size--;
+        }
     }
-  
 
-  void pop_back() {
-    if (size > 0) {
-        size --;
+    // Print array
+    void print() {
+        cout << "Array: ";
+        for (int i = 0; i < size; i++)
+            cout << data[i] << " ";
+        cout << endl;
     }
-}
-
+};
 
 int main() {
-    dynamic arr1;
-    dynamic arr2;
-    arr1 == arr2;
+    DynamicArray arr;
+
+    arr.push_back(10);
+    arr.push_back(20);
+    arr.push_back(30);
+
+    arr.print();  // 10 20 30
+
+    DynamicArray copyArr = arr;  // calls copy constructor
+    copyArr.print();
+
+    DynamicArray movedArr = std::move(arr); // move constructor
+    movedArr.print();
+
+    return 0;
 }
-
-
